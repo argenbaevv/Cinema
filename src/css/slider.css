@@ -1,0 +1,13 @@
+*{box-sizing: border-box;}
+
+.slider {
+  margin-top: 50px;
+}
+
+.slider img {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+

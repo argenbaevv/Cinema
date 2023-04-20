@@ -1,0 +1,28 @@
+@import "./colors.css";
+
+
+.catalog {
+  width: 100%;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 3em;
+  grid-row-gap: 4em;
+}
+
+.catalog-box img {
+  width: 100%;
+  border-radius: 10px;
+} 
+
+.catalog-box h5 {
+  font-size: 1vw;
+  margin: .5vw 0 0 0;
+  font-weight: 500;
+}
+
+.film-genre {
+  font-size: .7em;
+  color: var(--text-grey);
+}
+
